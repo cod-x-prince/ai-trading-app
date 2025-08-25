@@ -1,0 +1,13 @@
+streamlit
+yfinance
+pandas
+numpy
+joblib
+textblob
+newsapi-python
+pandas-ta
+xgboost
+python-dotenv
+matplotlib
+mplfinance
+scikit-learn

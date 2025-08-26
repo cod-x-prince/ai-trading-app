@@ -124,6 +124,7 @@ with st.sidebar:
     company_name = st.text_input("Company Name", "Tata Motors")
     ticker_symbol = st.text_input("Ticker Symbol", "TATAMOTORS.NS")
     analyze_button = st.button("Analyze & Predict", use_container_width=True, type="primary")
+    st.markdown("ℹ️ [Find any stock's ticker on Yahoo Finance](https://finance.yahoo.com/)")
 
 if analyze_button:
     analysis_log = [] # Reset log
@@ -210,4 +211,5 @@ if analyze_button:
             with st.expander("Show Full Analysis Log"):
                 st.code('\n'.join(analysis_log))
 else:
+
     st.info("👋 Welcome! Enter a stock in the sidebar and click 'Analyze & Predict' to begin.")
